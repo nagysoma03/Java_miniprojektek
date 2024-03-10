@@ -14,8 +14,8 @@ public class fel9 {
         array2D[8][8] = 8;
         array2D[9][9] = 9;
 
-        for (int i = 0; i < array2D.length; i++) {
-            System.out.println(Arrays.toString(array2D[i]));
+        for (int[] rows : array2D) {
+            System.out.println(Arrays.toString(rows));
         }
 
     }
